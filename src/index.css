@@ -7,28 +7,28 @@
 /* Terminal Design System - All colors in HSL */
 @layer base {
   :root {
-    /* Terminal Dark Theme */
-    --terminal-bg: 210 11% 6%;          /* #0f0f0f */
-    --terminal-bg-alt: 210 11% 10%;     /* #1a1a1a */
-    --terminal-border: 210 11% 15%;     /* #262626 */
+    /* Catppuccin Mocha Theme */
+    --terminal-bg: 240 21% 15%;         /* Base #1e1e2e */
+    --terminal-bg-alt: 237 16% 23%;     /* Surface0 #313244 */
+    --terminal-border: 240 17% 30%;     /* Surface1 #45475a */
     
     /* Terminal Colors */
-    --terminal-green: 120 100% 50%;     /* #00FF00 */
-    --terminal-yellow: 60 100% 50%;     /* #FFFF00 */
-    --terminal-amber: 45 100% 50%;      /* #FFBF00 */
-    --terminal-red: 0 100% 50%;         /* #FF0000 */
-    --terminal-blue: 240 100% 50%;      /* #0000FF */
-    --terminal-cyan: 180 100% 50%;      /* #00FFFF */
-    --terminal-magenta: 300 100% 50%;   /* #FF00FF */
+    --terminal-green: 115 54% 76%;      /* Green #a6e3a1 */
+    --terminal-yellow: 41 86% 83%;      /* Yellow #f9e2af */
+    --terminal-amber: 23 92% 75%;       /* Peach #fab387 */
+    --terminal-red: 343 81% 75%;        /* Red #f38ba8 */
+    --terminal-blue: 217 92% 76%;       /* Blue #89b4fa */
+    --terminal-cyan: 189 71% 73%;       /* Sky #89dceb */
+    --terminal-magenta: 267 84% 81%;    /* Mauve #cba6f7 */
     
     /* Text Colors */
-    --terminal-text: 120 100% 50%;      /* Primary green text */
-    --terminal-text-dim: 120 50% 40%;   /* Dimmed green */
-    --terminal-text-alt: 60 100% 50%;   /* Yellow text */
-    --terminal-prompt: 45 100% 50%;     /* Amber prompt */
+    --terminal-text: 226 64% 88%;       /* Text #cdd6f4 */
+    --terminal-text-dim: 227 35% 80%;   /* Subtext0 #a6adc8 */
+    --terminal-text-alt: 41 86% 83%;    /* Yellow #f9e2af */
+    --terminal-prompt: 115 54% 76%;     /* Green #a6e3a1 */
     
     /* Cursor */
-    --terminal-cursor: 120 100% 50%;    /* Blinking cursor */
+    --terminal-cursor: 115 54% 76%;     /* Green #a6e3a1 */
     
     /* Semantic mappings for compatibility */
     --background: var(--terminal-bg);
