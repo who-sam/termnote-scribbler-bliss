@@ -18,7 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				mono: ['JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Courier New', 'monospace'],
+			},
 			colors: {
+				// Standard semantic colors
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -52,15 +56,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				
+				// Terminal-specific colors
+				terminal: {
+					bg: 'hsl(var(--terminal-bg))',
+					'bg-alt': 'hsl(var(--terminal-bg-alt))',
+					border: 'hsl(var(--terminal-border))',
+					text: 'hsl(var(--terminal-text))',
+					'text-dim': 'hsl(var(--terminal-text-dim))',
+					'text-alt': 'hsl(var(--terminal-text-alt))',
+					prompt: 'hsl(var(--terminal-prompt))',
+					cursor: 'hsl(var(--terminal-cursor))',
+					green: 'hsl(var(--terminal-green))',
+					yellow: 'hsl(var(--terminal-yellow))',
+					amber: 'hsl(var(--terminal-amber))',
+					red: 'hsl(var(--terminal-red))',
+					blue: 'hsl(var(--terminal-blue))',
+					cyan: 'hsl(var(--terminal-cyan))',
+					magenta: 'hsl(var(--terminal-magenta))',
 				}
 			},
 			borderRadius: {
